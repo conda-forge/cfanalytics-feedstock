@@ -1,5 +1,5 @@
 {% set name = "cfanalytics" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set sha256 = "aa3d98ebc1c39000c1e7ab08d586e079f8d7c87db15a318e03ff4918bc38c739" %}
 
 package:
@@ -25,6 +25,7 @@ requirements:
     - requests
     - aiohttp
     - pandas
+    - numpy
 
 test:
   imports:
