@@ -1,6 +1,6 @@
 {% set name = "cfanalytics" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "aa3d98ebc1c39000c1e7ab08d586e079f8d7c87db15a318e03ff4918bc38c739" %}
+{% set version = "0.1.10" %}
+{% set sha256 = "9bc849d164a8067312aba75862e35c2c3b2b353adaa503d2bbb3285cc6893e94" %}
 
 package:
   name: {{ name|lower }}
